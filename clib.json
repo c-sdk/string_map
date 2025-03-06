@@ -1,0 +1,11 @@
+{
+  "name": "string_map",
+  "version": "0.1.0",
+  "repo": "c-sdk/string_map",
+  "description": "A hash map where the keys are strings (no hashing function) and is defined like and associated list.",
+  "license": "Unlicense",
+  "src": ["./string_map.h", "./string_map.c"],
+  "dependencies": {
+    "c-sdk/arena": "*"
+  }
+}
